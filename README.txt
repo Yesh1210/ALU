@@ -8,31 +8,31 @@
                                                     |              |   ARTH_TOP    |              |
                                                     |              |               |              |
                                                     |              |               |              |
-													|              |   ADDITION    |              |
-													|              |   SUBTRACTION |              |
-											 in1--->|              |   PRODUCT     |              |
-												    |              |   DIVISION    |              |
-													|              |               |              |
-											 in2--->|              |               |              |
-												    |              |_______________|              |
-												    |                                             |
-										  opcode--->|                                             |
-													|               _______________               |--->out_top
-													|              |               |              |
-											 clk--->|              |   LOGIC_TOP   |              |
-												    |              |               |              |
+						    |              |   ADDITION    |              |
+						    |              |   SUBTRACTION |              |
+					     in1--->|              |   PRODUCT     |              |
+				                    |              |   DIVISION    |              |
+						    |              |               |              |
+					     in2--->|              |               |              |
+						    |              |_______________|              |
+					            |                                             |
+					  opcode--->|                                             |
+					            |               _______________               |--->out_top
+						    |              |               |              |
+				             clk--->|              |   LOGIC_TOP   |              |
+						    |              |               |              |
                                                     |              |               |              |
                                             rstn--->|              |      OR       |              |
                                                     |              |      AND      |              |
                                                     |              |      NAND     |              |
-                                                    |              |      NOR      |			  |
-                                                    |              |               |			  |
-                                                    |              |               |			  |
-                                                    |              |_______________|			  |
-                                                    |                               			  |
-                                                    |                               			  |
-													|                                  DESIGN_TOP |
-													|_____________________________________________|
+                                                    |              |      NOR      |	          |
+                                                    |              |               |		  |
+                                                    |              |               |		  |
+                                                    |              |_______________|		  |
+                                                    |                               		  |
+                                                    |                               		  |
+						    |                                  DESIGN_TOP |
+						    |_____________________________________________|
 
 
 1. ALU(Arthimetic logic unit) is designed in such a way that it contains two sub blocks in it namely Arthimetic unit and logical unit.
