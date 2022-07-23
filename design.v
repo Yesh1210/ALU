@@ -1,6 +1,6 @@
 //top module
-`include "logic_top.sv"
-`include "arth_top.sv"
+`include "logic_top.v"
+`include "arth_top.v"
 
 module design_top(clk , rstn , in1 , in2 , opcode , out_top);
 	input clk;
