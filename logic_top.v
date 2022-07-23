@@ -1,8 +1,8 @@
 //logic top
-`include "logical_and.sv"
-`include "logical_nand.sv"
-`include "logical_nor.sv"
-`include "logical_or.sv"
+`include "logical_and.v"
+`include "logical_nand.v"
+`include "logical_nor.v"
+`include "logical_or.v"
 
 module logic_top(in1 , in2 , opcode , out_logic);
 	
