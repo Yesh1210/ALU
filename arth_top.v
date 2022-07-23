@@ -1,8 +1,8 @@
 //arthmetic top
-`include "adder.sv"
-`include "subtractor.sv"
-`include "product.sv"
-`include "divider.sv"
+`include "adder.v"
+`include "subtractor.v"
+`include "product.v"
+`include "divider.v"
 
 module arth_top(in1 , in2 , opcode , out_arth);
 
